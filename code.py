@@ -15,13 +15,13 @@ t=sr.Recognizer()
 with sr.Microphone() as source:
     audio=t.listen(source)
 try:
-    print("Task completed")
+    print("Task completed")                                                                             #For conforming
     lselected="Language selected by you is " + t.recognize_google(audio)
     if t.recognize_google(audio)=='Hindi':
-        print("Hindi")
+        print("Hindi")                                                                                  #For comforming
         language='hi'
     elif t.recognize_google(audio)=='English':
-        print("English")
+        print("English")                                                                                #For comforming
         language='en'
     laselected=gTTS(text=lselected,lang='en',slow=False)
     laselected.save("langselected.mp3")
@@ -31,7 +31,7 @@ except sr.UnknownValueError:
     langerroro = gTTS(text=langerror, lang=language, slow=False)
     langerroro.save("error0.mp3")
     playsound('error0.mp3')
-voice="Say something"
+voice="Search for something"
 fobj=gTTS(text=voice,lang=language,slow=False)
 fobj.save("say.mp3")
 playsound('say.mp3')
@@ -40,7 +40,7 @@ with sr.Microphone() as source:
 
     audio=r.listen(source)
 try:
-    print("Task completed")
+    print("Task completed")                                                                              #For comforming
     svoice="Google Speech Recognition think you said"+r.recognize_google(audio)
     sobj=gTTS(text=svoice,lang='en',slow=False)
     sobj.save("repeat.mp3")
@@ -55,12 +55,10 @@ except sr.RequestError as e:
 
 
 query = r.recognize_google(audio)
-#for j in search(query, tld="com", num=1, stop=1, pause=2):
-    #   print(j)
-    #  webbrowser.open(j)
+
 import wikipedia
 result=wikipedia.summary(query,sentences=3)
-print("Task completed")
+print("Task completed")                                                                                   #For comforming
 languages=language
 myobj=gTTS(text=result,lang=languages,slow=False)
 myobj.save("wiki.mp3")
