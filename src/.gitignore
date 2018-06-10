@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Ignoring .mp3 files of output
+
+*.mp3
