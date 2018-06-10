@@ -44,8 +44,6 @@ pip list / pip3 list
 pip install SpeechRecognition
 ```
 
-##### SCREENSHOT
-
 ![SpeechRecognition](images/speech.png)
 
 #### 2. pyaudio
@@ -56,17 +54,15 @@ sudo apt-get install python-pyaudio python3-pyaudio / sudo apt install python
 pip install pyaudio
 ```
 
-##### SCREENSHOTS
-
-###### portaudio19-dev
+##### portaudio19-dev
 
 ![portaudio19-dev](images/portaudio.png)
 
-###### python3-pyaudio
+##### python3-pyaudio
 
 ![python3-pyaudio](images/pyaudio.png)
 
-###### pyaudio
+##### pyaudio
 
 ![pyaudio](images/paudio.png)
 
@@ -76,8 +72,6 @@ pip install pyaudio
 pip install gTTS
 ```
 
-##### SCREENSHOT
-
 ![gTTS](images/gTTS.png)
 
 #### 4. playsound
@@ -85,8 +79,6 @@ pip install gTTS
 ```bash
 pip install playsound
 ```
-
-##### SCREENSHOT
 
 ![playsound](images/playsound.png)
 
@@ -96,15 +88,13 @@ pip install playsound
 pip install wikipedia
 ```
 
-##### SCREENSHOT
-
 ![wikipedia](images/wikipedia.png)
 
 ## RUN
 
-* You would need to run code.py by following commands:
+* You would need to run code.py in src folder by following commands:
 
-```python
+```bash
 python3 code.py
 ```
 
