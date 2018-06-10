@@ -106,9 +106,9 @@ python3 code.py
 
 Make it adaptable to more national languages by using a better API and linking it with other text-to-speech facilties(working on it.
 
-## BUGS
+## CONTRIBUTION
 
-**Report bugs by creating the issue on my repo. I will solve as soon as possible.**
+See [CONTRIBUTING.md](CONTRIBUTING.md) 
 
 ## AUTHOR
 
@@ -116,6 +116,6 @@ Hardik Yadav
 
 ## CONTRIBUTORS
 
-1. Gaurav Walia
+[CONTRIBUTORS](CONTRIBUTORS.md)
 
 :octocat: HAPPY CODING :octocat:
